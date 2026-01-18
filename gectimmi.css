@@ -139,9 +139,13 @@ text-align: center;
 }
 .buton:hover{
     border: 3px solid #4e015c;
+    transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(208, 208, 209, 0.751);
 }
 .buton:active{
     transform: scale(0.95);
+    transform: translateY(0);
+   box-shadow: 0 4px 10px rgba(208, 208, 209, 0.751);
 }
 
 .harfOzel{
@@ -164,5 +168,6 @@ body {
     background-position: center;           
     background-attachment: fixed;         
 }
+
 
 

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Hesaplama</title>
+    <link rel="stylesheet" href="final.css">
+</head>
+<body>
+ 
+    <form action="" id="myForm"> 
+<div class="kapsayici">
+    
+    <div class="divler">
+        <h1 class="basliklar">1.Vizeyi Giriniz</h1>
+        <label for="type"></label>
+        <input type="text" placeholder="Not" class="girisler" name="vize1n">
+        
+        <label for="type"></label>
+        <input type="text" placeholder="%" class="oranlar" name="vize1o">
+
+        <h1 class="basliklar">2.Vizeyi Giriniz(Varsa)</h1>
+        <label for="text"></label>
+        <input type="text" placeholder="Not" class="girisler" name="vize2n">
+
+        <label for="type"></label>
+        <input type="text" placeholder="%" class="oranlar" name="vize2o">
+        <br>
+        <p class="mesaj">Üst kısma o sınavda aldığınız notu alt kısıma ise o sınavın genel ortalamayı yüzde kaç etkilediğini yazınız.</p>
+
+    </div>
+
+    <div class="divler">
+        <br>
+        <h1 class="basliklar">Proje/Ödev Notunu Giriniz.</h1>
+        <label for="type"></label>
+        <input type="text" placeholder="Not" class="girisler" name="projen">
+
+        <label for="type"></label>
+        <input type="text" placeholder="%" class="oranlar" name="projeo">
+
+        <h1 class="basliklar">Geçme Notunu Yazınız.</h1>
+        <label for="type"></label>
+        <input type="text" placeholder="Not" class="girisler" name="gecme">
+        <input type="submit" class="buton">
+
+    </div>
+    
+    <div class="divler" id="eksik">
+        <h1 class="basliklar">Final İçin Gereken Minimum Puan Bu Kısımda Gözükecektir!</h1>
+
+    </div>
+
+    
+
+  
+</div>
+  </form>
+    
+  <script src="final.js"></script>
+</body>
+</html>

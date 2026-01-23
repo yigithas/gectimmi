@@ -1,0 +1,66 @@
+body{
+    background-color: #1a1b1b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.kapsayici{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.finalkismi , .harfkismi{
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+  justify-content: center; 
+  align-items: center;     
+  
+  
+  color: aliceblue;            
+  font-size: 2rem;         
+  font-weight: bold;       
+  text-align: center;     
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5); 
+}
+
+@media (max-width: 768px) {
+  .kapsayici {
+    flex-direction: column; 
+  }
+
+  .finalkismi, .harfkismi {
+    width: 100%;  
+    height: 50vh;
+  }
+}
+
+.finalkismi{
+    background-color: #1a1b1b;
+    background-image: url(zsol.png);
+    color: aliceblue;
+
+}
+
+.harfkismi{
+    background-color: #1a1b1b;
+    background-image: url(zsag.png);
+    color: aliceblue;
+}
+
+.finalkismi:hover{
+   transform: translateY(-2px);
+   box-shadow: 0 4px 10px rgba(208, 208, 209, 0.751);
+}
+
+.harfkismi:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(208, 208, 209, 0.751);
+}
+

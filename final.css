@@ -1,5 +1,5 @@
 body{
-    color: #1b1a1a;
+    background-color: #1b1a1a;
     background-image: url(zfinalarkaplan.png);
     background-repeat: no-repeat;           
     background-size: cover;                
@@ -100,3 +100,4 @@ display: flex;
 align-items: center;
 
 }
+

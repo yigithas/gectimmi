@@ -10,13 +10,14 @@ Geçtim mi?, Kocaeli Üniversitesi Bilgisayar Mühendisliği bölümündeki ilk 
 **📝 Proje Hakkında**
 
 
-Bu uygulama, öğrencilerin vize ve final notlarını girerek dönem sonundaki muhtemel harf notlarını hesaplamalarına yardımcı olur. Sadece mevcut durumu göstermekle kalmaz, aynı zamanda bir üst harf notuna ulaşmak için ortalamanın kaç puan yüksek gerektiğini de hesaplar.
+Bu uygulama, öğrencilerin vize ve final notlarını girerek dönem sonundaki muhtemel harf notlarını hesaplamalarına yardımcı olur. Sadece mevcut durumu göstermekle kalmaz, aynı zamanda bir üst harf notuna ulaşmak için ortalamanın kaç puan yüksek gerektiğini de hesaplar. Ayriyetten bir diğer hesaplama aracıyla da minimum gereken final notunu da hesaplar.
 
 ------------------
 
 **✨ Özellikler**
 
 
+Minimum Final Notu Hesaplama: Vize ve proje sınavlarına göre alınması gereken final notunu hesaplar.
 
 Harf Notu Hesaplama: Girilen vize ve final ağırlıklarına göre başarı notunu belirler.
 
